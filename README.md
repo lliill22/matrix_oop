@@ -2,8 +2,6 @@
 
 Implementation of the s21_matrix_oop.h library.
 
-The russian version of the task can be found in the repository.
-
 
 ## Contents
 
@@ -16,8 +14,6 @@ The russian version of the task can be found in the repository.
 
 
 ## Chapter I
-
-![s21_matrix](misc/images/s21_matrix.png)
 
 Planet Earth, USA, Texas, Dallas County, 1705 Matthew Street, 20 September, 2000.
 
@@ -156,6 +152,3 @@ And you also need to overload the following operators, partly corresponding to t
 - Overload the operators according to the table in the chapter [above](#matrix-operations)
 - Prepare full coverage of library functions code with unit-tests using the GTest library
 - Provide a Makefile for building the library and tests (with targets all, clean, test, s21_matrix_oop.a)
-
-
-💡 [Tap here](https://forms.yandex.ru/cloud/64181a0deb614624afcee6b5/) **to leave your feedback on the project**. Pedago Team really tries to make your educational experience better.
