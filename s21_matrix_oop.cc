@@ -244,9 +244,9 @@ S21Matrix& S21Matrix::operator*=(const double other) {
 }
 
 double& S21Matrix::operator()(int i, int j) const {
-  if (i < 0 || j < 0 || i >= rows_ || j >= cols_)
+  if (i < 1|| j < 1 || i > rows_ || j > cols_)
     throw std::out_of_range("out of range");
-  return matrix_[i][j];
+  return matrix_[i - 1][j - 1];
 }
 
 void S21Matrix::Allocate(S21Matrix& other) const {
